@@ -3,7 +3,8 @@
 This basic Python application is, - as the title of this markdown implies -a simple, text-based 'Wordle' application. The idea is simple: you have six(6) tries to guess a randomly generated word. Because this is a text-based version of the game, there are no color codes (yet...*wink, wink*). The rules are outlined in the next section of this document.
 
 # News
-Nothing here yet...
+**There are some known issues with this mini project. For one, it does not work entirely. It is still very broken. If you treat it well enough,
+it might work for you.** 
 
 # Rules
 
