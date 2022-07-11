@@ -13,7 +13,7 @@ list_of_words = get_list()
 # print(list_of_words)
 num_tries = 6
 choice = random.choice(list_of_words)
-print(choice)
+#print(choice)
 
 # Get a user guess input
 def guess(): 
@@ -58,6 +58,9 @@ while num_tries > 0:
             print("Correct!")
             num_tries = 0
             break
+        if num_tries == 0:
+            break
+        
     
 
 
