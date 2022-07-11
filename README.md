@@ -6,6 +6,12 @@ This basic Python application is, - as the title of this markdown implies -a sim
 **There are some known issues with this mini project. For one, it does not work entirely. It is still very broken. If you treat it well enough,
 it might work for you.** 
 
+Known Issues:
+- There isn't a specific way to ensure the user doesn't guess a forbidden word; this rule is upheld due to the word list only consisting of five-letter words. A failsafe should be implemented for this. 
+- Once you guess a word, guesses are subtracted regardless of word validity.
+> For example, if you guess a word that is not in the word list, the number of guesses should not be subtracted.
+- There is some bad code that needs to be filtered out.
+
 # Rules
 
 If you aren't familiar with the rules of the game, here are the official rules (as outlined by tomsguide.com):
