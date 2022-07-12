@@ -23,7 +23,13 @@ def guess():
 def split_to_char(word):
     return [char for char in word]
 
-# Check that the user's guess is inthe list of words
+# def count(word):
+#     ''' Takes in a word as an argument and counts multiple instances of letters'''
+
+
+# Check the user's guess.
+# This will be the main driver of the program
+
 def check_guess(guess, list_of_words):
     # First check if word is in the list
     guess_in_word = False # Default value of False
@@ -59,8 +65,5 @@ while num_tries > 0:
             num_tries = 0
             break
         if num_tries == 0:
+            print("Out of guesses. The correct guess is:", choice)
             break
-        
-    
-
-

@@ -8,9 +8,13 @@ it might work for you.**
 
 Known Issues:
 - There isn't a specific way to ensure the user doesn't guess a forbidden word; this rule is upheld due to the word list only consisting of five-letter words. A failsafe should be implemented for this. 
+- The current program accepts words less than five letters.
 - Once you guess a word, guesses are subtracted regardless of word validity.
 > For example, if you guess a word that is not in the word list, the number of guesses should not be subtracted.
 - There is some bad code that needs to be filtered out.
+- Multiple ocurrences of the same letter, though allowed, are not checked for. 
+> For instance, if the user guesses a word that includes multiple instances of the same letter, there is no check by the program to ensure that the correct word actually includes these instances. The indicator could just be assuming one instance counts as multiple.
+- When guesses run out, the correct guess is not shown. This is not how the original game works but I would like this feature here.
 
 # Rules
 
@@ -36,6 +40,4 @@ Obvously, all of these rules are not applied in this version. Here, the followin
 
 # Future Plans
 
-I'm working on this section right now. More here.
-
-
+I'm working on this section right now. More soon.
