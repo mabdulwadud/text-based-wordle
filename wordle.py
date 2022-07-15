@@ -59,6 +59,7 @@ while num_tries > 0:
             num_tries = 0
             break
         if num_tries == 0:
+            print("The correct guess is:", choice)
             break
         
     
